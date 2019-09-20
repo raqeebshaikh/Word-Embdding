@@ -3,12 +3,18 @@ Author: Derek Chia
 Email: derek@derekchia.com
 
 # Word2Vec
-Ive implemented the Word2Vec model with the help of above tutorial for better understanding on how word Embedding is done .Some of the addition that i have done to the code are as follows -
+I've implemented the Word2Vec model with the help of above tutorial for better understanding on how word Embedding is done .
+
+> I haven't tested this on any huge data set just on some text to check
+> how the Embedding Words
+
+Some of the addition that i have done to the code are as follows -
 
  1. Cbow Embedding
  2. Cosine Similarity
  3. Euclidean Distance 
 
+Visit my website www.raqeeb.in for other project on Document Similarity ,Chat-bot and much more ...
 ## Project Example - 
 In Word Embedding a Word in represented in the form of a vector . After the representation various Mathematical Tasks can be performed on the Vector 
 
@@ -32,6 +38,7 @@ Ive chosed the above test purposely to show how Word Embedding for words that ap
 > Predict Context Words based on the target Word
 
 Similar Words to Word - `monday`
+
 | Cosine Similarity |Theta |Eculedian Distance|Distance
 |--|--|--|--|
 | monday |0.99|monday|0.0
@@ -47,6 +54,7 @@ day |0.14 |and|2.83
 > Predict target word based on the context word
 
 Similar Words to Word - `monday`
+
 | Cosine Similarity |Theta |Eculedian Distance|Distance
 |--|--|--|--|
 | monday |0.99|monday|0.0
