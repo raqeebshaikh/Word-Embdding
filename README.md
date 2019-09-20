@@ -26,9 +26,12 @@ Ive chosed the above test purposely to show how Word Embedding for words that ap
 
 > settings = {	'window_size': 2,'n': 3,'epochs': 200,'learning_rate': 0.01}
 
-#### Report -
-Similar Words to Word - `monday`
 
+## Skip-Gram
+
+> Predict Context Words based on the target Word
+
+Similar Words to Word - `monday`
 | Cosine Similarity |Theta |Eculedian Distance|Distance
 |--|--|--|--|
 | monday |0.99|monday|0.0
@@ -39,6 +42,20 @@ thursday |0.96|thursday|0.55
 the |0.89|the|0.69
 day |0.14 |and|2.83
 
+## CBOW
+
+> Predict target word based on the context word
+
+Similar Words to Word - `monday`
+| Cosine Similarity |Theta |Eculedian Distance|Distance
+|--|--|--|--|
+| monday |0.99|monday|0.0
+sunday |0.62|sunday|0.97
+thursday| 0.58|thursday|1.55
+friday |0.23|wednesday|3.29
+wednesday |-0.32|friday|0.55
+day |-0.34|and|3.34
+is |-0.37 |is|4.96
   
 
     
