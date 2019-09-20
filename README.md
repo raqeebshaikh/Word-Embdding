@@ -28,6 +28,7 @@ Ive chosed the above test purposely to show how Word Embedding for words that ap
 
 #### Report -
 Similar Words to Word - `monday`
+
 | Cosine Similarity |Theta |Eculedian Distance|Distance
 |--|--|--|--|
 | monday |0.99|monday|0.0
